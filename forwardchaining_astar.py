@@ -261,7 +261,6 @@ def update_goals(predicates):
     goals = possible_goals
 
 
-# A* based on AI week 3 lab solution. Modified to adapt for problem
 def a_star(start, cost_limit):
     global goals
     frontier = [] # create the priority queue
